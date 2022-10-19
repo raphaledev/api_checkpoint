@@ -1,0 +1,14 @@
+.user-group {
+  margin: auto 5%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.user {
+  width: 300px;
+  height: auto;
+  border: 1px solid blue;
+  padding-left: 10px;
+  border-radius: 10px;
+}
