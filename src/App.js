@@ -15,7 +15,11 @@ function App() {
 
   return (
     <div>
-        <UserList users = {users} />
+      {users ? (
+        <UserList users={users} />
+      ) : (
+        <h1>A Moment ...</h1>
+      )}
     </div>
   );
 }

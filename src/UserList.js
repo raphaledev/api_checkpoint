@@ -6,7 +6,7 @@ const UserList = ({ users }) => {
                 <p>Name : {user.name}</p>
                 <p>Username : {user.username}</p>
                 <p>Email : {user.email}</p>
-                <p>Address {user.address}</p>
+                <p>Address</p>
                 <ul>
                     <li>{user.address.street}</li>
                     <li>{user.address.suite}</li>
